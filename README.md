@@ -1,6 +1,6 @@
-# Katherine Howe Site (Migration Pilot)
+# Katherine Howe Site (GitHub Pages Test Build)
 
-Static GitHub Pages pilot to test migration from Wix with a route-first approach.
+Static GitHub Pages site modeled on the live Katherine Howe website structure and content style.
 
 ## Direct Test URL
 
@@ -14,6 +14,7 @@ Static GitHub Pages pilot to test migration from Wix with a route-first approach
 - `/media/`
 - `/events/`
 - `/contact/`
+- `/atrueaccount/`
 - `/vanderbilt/`
 - `/astor/`
 - `/physickbook/`
@@ -21,7 +22,8 @@ Static GitHub Pages pilot to test migration from Wix with a route-first approach
 - `/the-house-of-velvet-and-glass/`
 - `/annievansinderen/`
 
-## Notes
+## Content Notes
 
-- This is intentionally a partial migration for testing.
-- Full content migration can be layered in once route and deploy behavior are validated.
+- Events page lists future events only; past events are removed.
+- Social links include Instagram, X, Facebook, Pinterest, Substack, Goodreads, and LinkedIn.
+- Media and talks pages include recent reviews, podcasts, and interviews with verified URLs.
