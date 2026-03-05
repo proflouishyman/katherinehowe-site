@@ -94,3 +94,20 @@
 ### Outcome
 - The unwanted helper text is no longer present.
 - Media page now includes a current, source-driven update from Substack and Google News research.
+
+## 2026-03-05 - Contact Page: Form-First Layout with Social Icons
+
+### Problem
+- The contact page still exposed a raw email link and did not present a polished profile-style contact experience.
+- Social links were text-only and lacked platform iconography and a named profile block.
+
+### Solution
+- Reworked `/contact/` into a two-panel layout:
+  - Left: static-hosting-safe contact form (FormSubmit endpoint), with subject/redirect fields and honeypot.
+  - Right: profile card labeled `Katherine Howe` with social links and per-platform icons.
+- Removed the visible raw email link from the page.
+- Added dedicated contact UI styles in `styles.css` for form fields, buttons, icon links, and responsive behavior.
+
+### Outcome
+- Contact page now shows a modern form-based intake flow on the left and a branded social profile panel on the right.
+- Raw email is no longer displayed in visible page content.
