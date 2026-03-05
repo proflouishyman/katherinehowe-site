@@ -1,15 +1,15 @@
-/* Core editorial palette tuned to match the live Katherine Howe site style. */
+/* Core editorial palette with cool neutrals and a modern cobalt accent. */
 :root {
-  --bg: #f2efe7;
+  --bg: #eef2f8;
   --surface: #ffffff;
-  --surface-soft: #faf8f2;
-  --text: #1d1a17;
-  --muted: #5c5349;
-  --line: #ddd2c3;
-  --accent: #6f1f1f;
-  --accent-strong: #4f1313;
+  --surface-soft: #f4f7fc;
+  --text: #1a2333;
+  --muted: #607089;
+  --line: #d7e1ef;
+  --accent: #0f5bd6;
+  --accent-strong: #0a43a3;
   --radius: 14px;
-  --shadow: 0 10px 24px rgba(36, 29, 23, 0.1);
+  --shadow: 0 10px 24px rgba(17, 39, 79, 0.1);
 }
 
 *,
@@ -21,7 +21,9 @@
 body {
   margin: 0;
   color: var(--text);
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 5% 0%, #ffffff 0%, rgba(255, 255, 255, 0) 32%),
+    linear-gradient(180deg, #f4f7fc 0%, #eaf0f8 100%);
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   line-height: 1.62;
 }
@@ -50,7 +52,7 @@ a:hover {
   top: 0;
   z-index: 25;
   border-bottom: 1px solid var(--line);
-  background: rgba(242, 239, 231, 0.95);
+  background: rgba(238, 242, 248, 0.92);
   backdrop-filter: blur(8px);
 }
 
@@ -189,7 +191,7 @@ a:hover {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
-  box-shadow: 0 8px 20px rgba(36, 29, 23, 0.08);
+  box-shadow: 0 8px 20px rgba(17, 39, 79, 0.08);
   overflow: hidden;
 }
 
@@ -228,7 +230,7 @@ a:hover {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1rem 1.05rem;
-  box-shadow: 0 6px 16px rgba(36, 29, 23, 0.06);
+  box-shadow: 0 6px 16px rgba(17, 39, 79, 0.06);
 }
 
 .info-card h3 {
@@ -253,7 +255,7 @@ a:hover {
   border-radius: var(--radius);
   background: var(--surface);
   padding: 1rem;
-  box-shadow: 0 6px 16px rgba(36, 29, 23, 0.06);
+  box-shadow: 0 6px 16px rgba(17, 39, 79, 0.06);
 }
 
 .mention-card h3 {
@@ -273,7 +275,7 @@ a:hover {
   font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #7c7265;
+  color: #667993;
   font-weight: 700;
 }
 
@@ -312,7 +314,7 @@ a:hover {
   text-decoration: none;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: #fff;
+  background: #f7f9ff;
   color: var(--text);
   font-size: 0.87rem;
   font-weight: 700;
@@ -361,8 +363,8 @@ a:hover {
 .notice {
   margin: 1rem 0 0;
   border-left: 4px solid var(--accent);
-  background: #f8f2ea;
-  color: #584f44;
+  background: #eaf2ff;
+  color: #35507a;
   padding: 0.78rem 0.92rem;
   border-radius: 0 9px 9px 0;
   font-size: 0.93rem;
@@ -407,13 +409,13 @@ a:hover {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: 0 8px 20px rgba(36, 29, 23, 0.08);
+  box-shadow: 0 8px 20px rgba(17, 39, 79, 0.08);
   padding: 1.1rem;
 }
 
 .site-footer {
   border-top: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.86);
 }
 
 .footer-inner {
