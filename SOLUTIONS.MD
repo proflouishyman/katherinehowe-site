@@ -77,3 +77,20 @@
 - Book covers now map correctly by title, with `Astor` and `Vanderbilt` clearly distinct.
 - Placeholder-like language has been removed from public-facing pages.
 - The site presents a cleaner, more contemporary visual tone while preserving layout and content structure.
+
+## 2026-03-05 - Remove Residual Helper Copy and Add Substack/News Refresh
+
+### Problem
+- A residual helper blurb ("Book Page Links ...") needed to be removed from user-facing content.
+- Media section needed a fresher update based on recent Substack posts and Google News-discovered coverage.
+
+### Solution
+- Verified and removed the helper blurb from public pages.
+- Added new `media` sections:
+  - `Recent from Substack` (latest posts from 2025-2026).
+  - `Google News Highlights` (verified interview/feature/review links discovered via Google News searches).
+- Kept only links that resolve and are clearly tied to Katherine Howe.
+
+### Outcome
+- The unwanted helper text is no longer present.
+- Media page now includes a current, source-driven update from Substack and Google News research.
