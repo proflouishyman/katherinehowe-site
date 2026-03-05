@@ -57,3 +57,23 @@
 - The GitHub Pages test site now presents as a clean, real-site-style static build rather than a migration scaffold.
 - Core content sections and social/media coverage are in place with verified links.
 - Past events are no longer surfaced.
+
+## 2026-03-05 - Correct Book Art Mapping and Remove Template Copy
+
+### Problem
+- Several book images were incorrectly duplicated across titles (including `astor.jpg` and `vanderbilt.jpg`), causing the wrong art to appear in cards and detail pages.
+- Some book detail pages still used repeated template language that read as placeholder copy.
+- The palette still felt muted and dated after migration cleanup.
+
+### Solution
+- Replaced mis-mapped assets in `assets/images/` using title-specific source images from the corresponding live book pages.
+  - Updated: `astor.jpg`, `vanderbilt.jpg`, `pirates.jpg`, `temperancehobbs.jpg`.
+- Verified no duplicate image hashes remain in `assets/images/`.
+- Rewrote repeated detail-page copy to title-specific blurbs and normalized detail page footers.
+- Removed generic helper text from the books page.
+- Refreshed `styles.css` with a cleaner modern palette (cool neutrals + cobalt accent), updated shadows, and adjusted supporting UI colors for improved contrast.
+
+### Outcome
+- Book covers now map correctly by title, with `Astor` and `Vanderbilt` clearly distinct.
+- Placeholder-like language has been removed from public-facing pages.
+- The site presents a cleaner, more contemporary visual tone while preserving layout and content structure.
