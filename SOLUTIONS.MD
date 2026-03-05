@@ -111,3 +111,22 @@
 ### Outcome
 - Contact page now shows a modern form-based intake flow on the left and a branded social profile panel on the right.
 - Raw email is no longer displayed in visible page content.
+
+## 2026-03-05 - Literary Editorial Style Pass
+
+### Problem
+- The site functioned well but still felt generic and workmanlike after migration hardening.
+- Visual language needed stronger identity and editorial character without breaking existing structure.
+
+### Solution
+- Reworked `styles.css` into a literary-editorial design system:
+  - paper-texture background and warm print-inspired palette
+  - serif-led typography (`Cormorant Garamond` for display, `Spectral` for body, `Source Sans 3` for UI)
+  - stronger headline scale, section-rule treatments, and drop-cap lead styling
+  - refined cards, link chips, buttons, and footer to match the editorial tone
+  - subtle staged reveal animation with reduced-motion fallback
+- Updated all page font imports to the new type stack.
+
+### Outcome
+- The site now reads as intentionally literary rather than generic migration output.
+- Existing content, routes, and responsive behavior remain intact while visual character is significantly upgraded.
